@@ -1,0 +1,320 @@
+*{
+    margin: 0%;
+}
+.main{
+    display: block;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+}
+.navbar h1{
+    float: left;
+    margin: 1%;
+    position: fixed;
+}
+.navbar img{
+    width: 2%;
+    float: right;
+    margin-right: 8%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.menucontent{
+    text-decoration: none;
+    padding: 3%;
+    margin-left: 30%;
+    position: absolute;
+    width: 50%;
+}
+.menucontent li{
+     list-style-type: none;
+     display:block
+}
+.menucontent li a{
+    text-decoration: none;
+    padding-left:15%;
+    font-size: 150%;
+    
+}
+.menucontent li a:hover{
+    color: blue;
+    transform: scale(2,2);
+}
+.navbar img:hover .menucontent{
+    display: block;
+    
+}
+.first{
+    display: flex;
+    flex-direction:row
+
+}
+.first1{
+   margin: 2%;
+   width: 50%;
+}
+.first2{
+    background-image: url(
+        dsmin.jpg);
+    background-size: cover;
+    width: 50%;
+    float:right;
+    height: 100vh;
+}
+
+.first1 ul li{
+    list-style-type: none;
+    font-size: 350%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10%;
+}
+.first1 ul h3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.first1 ul button{
+    background-color: rgb(20, 17, 53);
+    color: antiquewhite;
+    margin: 10%;
+    padding: 2%;
+    width: 23%;
+    border-radius: 30px;
+    box-shadow: 10% 50% solid red;
+}
+.first1 ul button:hover{
+    background-color: rgb(5, 145, 17);
+
+}
+.second{
+    display: flex;
+    flex-direction:row
+    
+}
+.second1{
+    text-align: center;
+    width: 33.33%;
+    height: 30vh;
+    background-color: rgb(11, 11, 63);
+    color: white;
+    padding: 8%;
+    position: relative;
+}
+.second1:hover{
+    transform: scale(115%,115%);
+}
+.second2{
+    text-align: center;
+    width: 33.33%;
+    height: 30vh;
+    background-color: rgb(24, 203, 210);
+    color: white;
+    padding: 8%;
+}
+.second2:hover{
+    transform: scale(115%,115%);
+}
+.second3{
+    text-align: center;
+    width: 33.33%;
+    height: 30vh;
+    background-color: rgb(8, 154, 171);
+    color: white;
+    padding: 8%;
+}
+.second3:hover{
+    transform: scale(115%,115%);
+}
+.third{
+    margin-top: 5%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.third button{
+    width: 15%;
+    padding: 2%;
+    background-color: white;
+    color: black;
+}
+.third button:hover{
+       background-color: rgb(22, 22, 54);
+       color: white;
+       transform: scale(125%,125%);
+}
+.third img{
+    width: 15%;
+
+}
+.fourth{
+    display: flex;
+    flex-direction:row
+}
+.fourth1{
+background-image: url(3488.jpg);
+width: 50%;
+height: 100vh;
+font: left;
+}
+.fourth2{
+width: 50%;
+padding-left: 5%;
+padding-top: 7%;
+padding-right: 5%;
+background-color: rgb(61, 207, 207);
+color: white;
+}
+.fourth ul li{
+  list-style-type: none;
+  font-size: 130%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.fourth button{
+    background-color: white;
+    color: rgb(61,207,207);
+    border-radius: 30px;
+    width: 25%;
+    padding: 2%;
+}
+.fourth button:hover{
+    transform: scale(125%,125%);
+    background-image: linear-gradient(white,rgb(255, 174, 0));
+    color:black;
+}
+.five{
+    text-align: center;
+    display: block;
+    padding-bottom: 4%;
+    background-color: white
+}
+.five1{
+    
+    text-align: center;
+    padding:7%;
+    
+}
+.five1 li{
+    list-style-type: none;
+    font-size: 130%;
+}
+.five2{
+   
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.five21{
+    padding: 5%;
+    width: 33.33%;
+    height: 60%
+    
+}
+.five21 li img{
+    width:40%
+}
+
+
+li{
+    list-style-type: none;
+}
+.five3{
+   
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.five button{
+    margin-top: 3%;
+    padding:1%;
+    width: 12%;
+    border: 1px solid rgb(61, 207, 207);
+}
+.six{
+    display: flex;
+    flex: row;
+}
+.six1{
+    background-color: rgb(221, 211, 211);
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 7%;
+}
+.six1 li{
+    list-style-type: none;
+    font-size: 130%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six2{
+    background-image: url(Third.jpg);
+    background-size: cover;
+    width: 60%;
+    height: 100vh;
+}
+.six1 button{
+    background-color: aqua;
+    color: white;
+    border-radius: 30px;
+    width: 30%;
+    padding: 2%;
+    font-size: 80%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.six1 button:hover{
+    transform: scale(125%,125%);
+    background-image: linear-gradient(white,rgb(255, 174, 0));
+    color: black;
+}
+.seven{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(9, 241, 233);
+    background-size: cover;
+}
+.seven li{
+  float: left;
+  padding-left: 10%;
+  margin: 4%;
+}
+.seven button{
+    float: right;
+    height: 5.5vh;
+    width: 10%;
+    margin: 6%;
+    background-color: white;
+    color: rgb(11, 226, 237);
+    border-radius:20px;
+}
+.seven button:hover{
+    transform: scale(125%,125%);
+    background-image: linear-gradient(white,rgb(255, 174, 0));
+    color: black;
+}
+.eight{
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 10vh;
+color: white;
+text-align: center;
+padding-top: 5%;
+}
+.nine{
+    background-color: rgb(65, 64, 64);
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    padding-top: 3%;
+}
+.nine li{
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+.nine li a{
+    color: aqua;
+}
